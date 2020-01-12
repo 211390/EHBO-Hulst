@@ -336,18 +336,21 @@ if (!empty($post_array)) {
                                         </td>
                                         <td id='repeatingCourseRegistrations'>
                                             <p>
-                                                <?php echo sprintf('%s/%s', count($registrationView->getRegistrations($obj)), $obj->getMaxParticipants()); ?>
+                                                <?php if (!empty($obj->getMaxParticipants()) && $obj->getMaxParticipants() !== 0) { ?>
+                                                    <?php echo sprintf('%s/%s', count($registrationView->getRegistrations($obj)), $obj->getMaxParticipants()); ?>
+                                                <?php } ?>
+
                                             </p>
                                         </td>
                                         <td id="repeatingCourseButtons">
-                                            <?php if (! empty($obj->getMaxParticipants()) && $obj->getMaxParticipants() !== 0) { ?>
+                                            <?php if (!empty($obj->getMaxParticipants()) && $obj->getMaxParticipants() !== 0) { ?>
                                                 <button id='courseList_registerButton'
-                                                        onclick="myFunction('js-repeat-course-<?php echo $obj->getRepeatingID(); ?>')">
+                                                        onclick="myFunction('js-register-for-repeat-course-<?php echo $obj->getRepeatingID(); ?>')">
                                                     Inschrijven
                                                 </button>
                                             <?php } ?>
                                             <button id='courseList_infoButton'
-                                                    onclick="myFunction('js-repeat-course-<?php echo $obj->getRepeatingID(); ?>')">
+                                                    onclick="myFunction('js-more-information-repeat-course-<?php echo $obj->getRepeatingID(); ?>')">
                                                 Meer
                                                 informatie
                                             </button>
@@ -355,7 +358,7 @@ if (!empty($post_array)) {
                                     </tr>
                                     <tr id="courseList_infoRow">
                                         <td colspan="4">
-                                            <div id="js-repeat-course-<?php echo $obj->getRepeatingID(); ?>"
+                                            <div id="js-more-information-repeat-course-<?php echo $obj->getRepeatingID(); ?>"
                                                  class="w3-hide">
                                                 <p>
                                                     <?= $obj->getDescription(); ?>
@@ -366,7 +369,7 @@ if (!empty($post_array)) {
                                     <tr id="courseList_registerRow">
                                         <td colspan="4">
                                             <!--REGISTRATION-->
-                                            <div id="js-repeat-course-<?php echo $obj->getRepeatingID(); ?>"
+                                            <div id="js-register-for-repeat-course-<?php echo $obj->getRepeatingID(); ?>"
                                                  class="w3-hide">
                                                 <div class="grid-x newCourseRegister" id="registrationSection">
                                                     <div class="cell small-1 medium-1 large-1"></div>
