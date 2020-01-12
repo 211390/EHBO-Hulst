@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10f9a488-f095-42e8-8494-49b914d2a24d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/views/adminSubMenuManageNewCourse.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/views/adminSubMenuManageNewCourse.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/model/newCourses.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/model/newCourses.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../wflogs/config-synced.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../wflogs/config-synced.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,7 +72,7 @@
       <workItem from="1578677456832" duration="10116000" />
       <workItem from="1578744803347" duration="636000" />
       <workItem from="1578749047460" duration="9340000" />
-      <workItem from="1578832672027" duration="9510000" />
+      <workItem from="1578832672027" duration="10924000" />
     </task>
     <servers />
   </component>

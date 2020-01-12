@@ -142,7 +142,7 @@ if ($view == 'update') {
                     <!--COURSE LIST DISAPPROVE BUTTON-->
                     <form method='post' action='<?= $actual_link . '&registratiegoedkeuren=foutKeuring&foutkeuringsId=' . $result->registrationID ?>'>
                         <input type='hidden' name='delete' value=''>
-                        <input <?php if ($result->approval == '0'){ echo 'style="display:none"';} ?> class='courseListDisapprove' onclick='return confirm("Weet je zeker dat je dit wilt Afkeuren & Verwijderen?");'
+                        <input class='courseListDisapprove' onclick='return confirm("Weet je zeker dat je dit wilt Afkeuren & Verwijderen?");'
                                type='submit' value='&#10006;'>
                     </form>
                 </td>
