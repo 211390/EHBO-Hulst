@@ -336,9 +336,9 @@ class registrationView
             );
 
             if (!empty($this->courseType)) {
-                $this->sendMailToAdminAfterRegistration($wpdb->insert_id, $this->courseType, 'new');
+                $this->sendMailToAdminAfterRegistration($this->courseType, 'new');
             } elseif (!empty($this->repeatingID)) {
-                $this->sendMailToAdminAfterRegistration($wpdb->insert_id, $this->repeatingID, 'repeat');
+                $this->sendMailToAdminAfterRegistration($this->repeatingID, 'repeat');
             } else {
                 throw new Exception('Er is iets fout gegaan tijdens het mailen van de beheerder.');
             }
@@ -357,7 +357,7 @@ class registrationView
         return TRUE;
     }
 
-    private function sendMailToAdminAfterRegistration($registrationId, $cursusId, $cursusType)
+    private function sendMailToAdminAfterRegistration($cursusId, $cursusType)
     {
         global $wpdb;
 
@@ -369,7 +369,6 @@ class registrationView
             $course = $wpdb->get_row("SELECT wp_cp_newcourse.title FROM wp_cp_newcourse INNER JOIN wp_cp_registration ON wp_cp_registration.courseType = wp_cp_newcourse.newID WHERE wp_cp_registration.courseType={$cursusId}");
         }
 
-        $wpdb->query("UPDATE wp_cp_registration SET approval = 1 WHERE registrationID ={$registrationId}");
         mail(get_option('admin_email'), 'Er is een nieuwe inschrijving voor een cursus', 'Er is een nieuwe inschrijving voor de cursus ' . $course->title);
     }
 

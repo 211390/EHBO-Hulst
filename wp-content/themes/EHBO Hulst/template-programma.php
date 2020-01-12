@@ -21,33 +21,36 @@ $post_array = $registrationView->getPostValues();
 if (isset($_GET['action'])) {
     $action = $_GET['action'];
 
-    if ($action === 'registerForNewCourse') {
-        $registrationView
-            ->setName($post_array['studentName'])
-            ->setTel($post_array['tel'])
-            ->setMail($post_array['mail'])
-            ->setComment($post_array['comment'])
-            ->setCourseType($post_array['courseType']);
+    // Check if the studentName is not empty, as it is required, to prevent the page from submitting when browsing.
+    if (!empty($post_array['studentName'])) {
+        if ($action === 'registerForNewCourse') {
+            $registrationView
+                ->setName($post_array['studentName'])
+                ->setTel($post_array['tel'])
+                ->setMail($post_array['mail'])
+                ->setComment($post_array['comment'])
+                ->setCourseType($post_array['courseType']);
 
-        try {
-            $registrationView->save();
-        } catch (Exception $exception) {
-            throw $exception;
+            try {
+                $registrationView->save();
+            } catch (Exception $exception) {
+                throw $exception;
+            }
         }
-    }
 
-    if ($action === 'registerForRepeatingCourse') {
-        $registrationView
-            ->setName($post_array['studentName'])
-            ->setTel($post_array['tel'])
-            ->setMail($post_array['mail'])
-            ->setComment($post_array['comment'])
-            ->setRepeatingID($post_array['courseType']);
+        if ($action === 'registerForRepeatingCourse') {
+            $registrationView
+                ->setName($post_array['studentName'])
+                ->setTel($post_array['tel'])
+                ->setMail($post_array['mail'])
+                ->setComment($post_array['comment'])
+                ->setRepeatingID($post_array['courseType']);
 
-        try {
-            $registrationView->save();
-        } catch (Exception $exception) {
-            throw $exception;
+            try {
+                $registrationView->save();
+            } catch (Exception $exception) {
+                throw $exception;
+            }
         }
     }
 }
@@ -216,15 +219,15 @@ if (!empty($post_array)) {
                             <input type="hidden" name="newID" value="<?php echo $current_course->getNewID(); ?>">
                             <div class="naamVeld">
                                 <h6 class="newCourse_title">Naam</h6>
-                                <input class="naamInput" name="studentName">
+                                <input class="naamInput" name="studentName" required>
                             </div>
                             <div class="emailVeld">
                                 <h6 class="newCourse_title">E-mail</h6>
-                                <input class="emailInput" name="mail">
+                                <input class="emailInput" name="mail" required>
                             </div>
                             <div class="telVeld">
                                 <h6 class="newCourse_title">Telefoonnummer</h6>
-                                <input class="telInput" name="tel">
+                                <input class="telInput" name="tel" required>
                             </div>
                             <div class="berichtVeld">
                                 <h6 class="newCourse_title">Bericht</h6>
@@ -380,15 +383,15 @@ if (!empty($post_array)) {
                                                                value="<?php echo $obj->getRepeatingID(); ?>">
                                                         <div class="naamVeld">
                                                             <h6 class="newCourse_title">Naam</h6>
-                                                            <input class="naamInput" name="studentName">
+                                                            <input class="naamInput" name="studentName" required>
                                                         </div>
                                                         <div class="emailVeld">
                                                             <h6 class="newCourse_title">E-mail</h6>
-                                                            <input class="emailInput" name="mail">
+                                                            <input class="emailInput" name="mail" required>
                                                         </div>
                                                         <div class="telVeld">
                                                             <h6 class="newCourse_title">Telefoonnummer</h6>
-                                                            <input class="telInput" name="tel">
+                                                            <input class="telInput" name="tel" required>
                                                         </div>
                                                         <div class="berichtVeld">
                                                             <h6 class="newCourse_title">Bericht</h6>
