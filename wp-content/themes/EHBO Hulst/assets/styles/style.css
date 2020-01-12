@@ -1,0 +1,1409 @@
+/************************************************
+
+Stylesheet: Global Stylesheet
+
+*************************************************/
+/*********************
+TEXT & FONTS
+*********************/
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+@font-face {
+    font-family: 'Futura Lt BT';
+    src: url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-LightItalic.woff2') format('woff2'),
+    url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Bk BT';
+    src: url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-BookItalic.woff2') format('woff2'),
+    url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Lt BT';
+    src: url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-Light.woff2') format('woff2'),
+    url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Bk BT';
+    src: url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-Book.woff2') format('woff2'),
+    url('../EHBO-Hulst/wp-includes/fonts/uturaBT-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Hv BT';
+    src: url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-Heavy.woff2') format('woff2'),
+    url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Hv BT';
+    src: url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-HeavyItalic.woff2') format('woff2'),
+    url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+h1 {
+    font-family: 'Merriweather Black', serif !important;
+    color: #c0392b;
+    font-size: 2, 667em;
+}
+
+h2 {
+    font-family: 'Merriweather', serif !important;
+    color: #c0392b;
+    font-size: 2, 334em;
+}
+
+h3 {
+    font-family: 'Merriweather Black', serif !important;
+    color: #c0392b;
+    font-size: 2em;
+}
+
+h4 {
+    font-family: 'Merriweather', serif !important;
+    font-weight: bold;
+    color: #c0392b;
+    font-size: 1, 667em;
+}
+
+h5 {
+    font-family: 'Merriweather', serif !important;
+    font-weight: bold;
+    color: #c0392b;
+    font-size: 1, 334em;
+}
+
+h6 {
+    font-family: 'Merriweather', serif !important;
+    font-weight: bold;
+    color: #c0392b;
+    font-size: 1em;
+}
+
+p {
+    font-family: 'Futura Bk BT', sans-serif !important;
+    font-size: 18px;
+}
+
+/*********************
+HEADER
+*********************/
+
+a {
+    color: black;
+}
+
+.top-bar {
+    background-color: white;
+}
+
+@media only screen and (max-width: 640px) {
+    .top-bar {
+        height: 75px;
+    !important;
+    }
+}
+
+.top-bar-right {
+    margin-right: 5%;
+    font-size: 1, 667em;
+    font-family: 'Merriweather', serif;
+    height: 10px;
+}
+
+#main-nav {
+    background-color: white;
+}
+
+@media only screen and (max-width: 640px) {
+    #top-bar-menu {
+        padding-bottom: 70px;
+        border-bottom: solid 5px #c0392b;
+    }
+}
+
+.menu {
+    background-color: white !important;
+}
+
+@media only screen and (max-width: 640px) {
+    .menu {
+        height: 50px;
+    }
+}
+
+.menu .active > a {
+    background: #c0392b;
+    border-bottom: 5px solid #9e2c25;
+    font-weight: bold;
+}
+
+.menu .active > a:hover {
+    background: #e74c3c;
+    border-bottom: 5px solid #c0392b;
+    color: white;
+}
+
+a:hover {
+    color: #c0392b;
+}
+
+#siteLogo {
+    height: 100px;
+    margin-left: 5%;
+    float: left;
+}
+
+@media only screen and (max-width: 640px) {
+    #siteLogo {
+        height: 60px;
+    !important;
+    }
+}
+
+#headerTitle {
+    font-size: 2em;
+    font-family: 'Merriweather Black', serif;
+    font-weight: 900;
+    margin-left: 2%;
+    margin-top: 25px;
+    color: black;
+}
+
+@media only screen and (max-width: 640px) {
+    #headerTitle {
+        visibility: hidden !important;
+    }
+}
+
+#hamburgerMenuSmall {
+    width: 75%;
+}
+
+.off-canvas {
+    background-color: white !important;
+    text-decoration: none !important;
+    float: right;
+}
+
+.hamburger-menu {
+    float: right;
+}
+
+@media only screen and (max-width: 1021px) {
+    .hamburger-menu {
+        margin-top: -20px !important;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .hamburger-menu {
+        margin-top: -50px !important;
+    }
+}
+
+/*********************
+OFFCANVAS-SIDEBAR
+*********************/
+
+#sidebarContainer {
+    padding: 30px;
+    background: #9e2c25;
+    color: white;
+    padding-bottom: 100%;
+}
+
+#sidebarContainer a {
+    color: white;
+}
+
+#sidebarContainer ul {
+    background: #9e2c25 !important;
+}
+
+#sidebarNav {
+    margin-top: 10%;
+    margin-bottom: 90%;
+    padding-left: 10%;
+    background: #9e2c25 !important;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+#sidebarNav .active > a {
+    background: white;
+    font-weight: bold;
+    color: #9e2c25 !important;
+    width: 150px;
+    margin-left: 5%;
+}
+
+#sidebarNav .active > a:hover {
+    background: #e74c3c;
+    border-bottom: 5px solid #9e2c25;
+    color: white !important;
+}
+
+.sidebarNav .main-nav {
+    background: #9e2c25 !important;
+}
+
+/*********************
+EHBO HULST FOOTER
+*********************/
+
+#footer-sidebar {
+    margin-left: 5%;
+}
+
+.copyright {
+    margin-left: 40% !important;
+    margin-right: 40% !important;
+}
+
+@media only screen and (max-width: 640px) {
+    .copyright {
+        margin-left: 1% !important;
+        margin-right: 1% !important;
+    }
+}
+
+@media only screen and (max-width: 1021px) {
+    .copyright {
+        margin-left: 1% !important;
+        margin-right: 1% !important;
+    }
+}
+
+/*********************
+EHBO HULST ALGEMEEN
+*********************/
+
+.spacer {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+/*********************
+EHBO HULST NEWS POSTS
+*********************/
+
+.newsPost {
+    color: white;
+    height: auto;
+    background-color: #c0392b;
+    margin-right: 2%;
+    padding-top: 5%;
+}
+
+.newsPost_container {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.newsPost_img img {
+    width: 90%;
+    margin-left: 5%;
+}
+
+@media only screen and (max-width: 1021px) {
+    .newsPost_img img {
+        margin-bottom: 5% !important;
+    }
+}
+
+.newsPost_title {
+    font-weight: bold;
+    color: white;
+    float: left;
+    width: 100%;
+}
+
+.newsPost_read_more {
+    float: right;
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    color: #9e2c25;
+    border: hidden;
+    border-bottom: 5px solid #9e2c25;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 1%;
+}
+
+@media only screen and (max-width: 640px) {
+    .newsPost_read_more {
+        width: 100% !important;
+    }
+}
+
+#upperPostSlant {
+    background-color: #c0392b;
+    height: 50px;
+    clip-path: polygon(0 5%, 0% 100%, 100% 100%);
+    -webkit-clip-path: polygon(0 5%, 0% 100%, 100% 100%);
+    margin-right: 2%;
+}
+
+#lowerPostSlant {
+    background-color: #c0392b;
+    height: 50px;
+    clip-path: polygon(0 0, 100% 95%, 100% 0);
+    -webkit-clip-path: polygon(0 0, 100% 95%, 100% 0);
+    margin-right: 2%;
+    margin-bottom: -30px;
+}
+
+.postPagination {
+    height: 200px;
+    background-color: #c0392b;
+    margin-right: 2%;
+    clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 75%);
+    webkit-clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 75%);
+}
+
+#leftArrow {
+    float: left;
+    height: 50%;
+    margin-top: 30px;
+    margin-left: 5%;
+}
+
+#rightArrow {
+    float: right;
+    height: 50%;
+    margin-top: 50px;
+    margin-right: 5%;
+}
+
+/*********************
+EHBO HULST SOCIAL POSTS
+*********************/
+
+.socialFeed {
+    background-color: #2980b9;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: auto;
+    color: white;
+    font-family: 'Futura Bk BT', sans-serif;
+    font-size: 18px;
+}
+
+/* FACEBOOK FEED */
+
+.socialFeed .fts-jal-fb-header {
+    visibility: hidden !important;
+}
+
+.socialFeed .fts-jal-fb-user-thumb {
+    visibility: hidden !important;
+}
+
+.socialFeed .fts-jal-fb-user-name {
+    visibility: hidden !important;
+}
+
+.socialFeed img {
+    max-height: 400px !important;
+}
+
+.socialFeed .ft-gallery-link-popup {
+    color: white !important;
+}
+
+.socialFeed .fts-jal-fb-see-more {
+    color: white !important;
+}
+
+.socialFeed .fts-powered-by-text {
+    visibility: hidden !important;
+}
+
+/* INSTAGRAM FEED */
+
+.socialFeed .fts-instagram-inline-block-centered {
+    width: 100% !important;
+}
+
+#upperSocialSlant {
+    background-color: #2980b9;
+    height: 50px;
+    clip-path: polygon(0 50%, 0% 100%, 100% 100%);
+    -webkit-clip-path: polygon(0 50%, 0% 100%, 100% 100%);
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 1021px) {
+    #upperSocialSlant {
+        background-color: #2980b9;
+        margin-top: -1%;
+        clip-path: polygon(0 5%, 0% 100%, 100% 100%);
+        -webkit-clip-path: polygon(0 5%, 0% 100%, 100% 100%);
+    }
+}
+
+#lowerSocialSlant {
+    background-color: #2980b9;
+    height: 50px;
+    clip-path: polygon(0 0, 100% 95%, 100% 0);
+    -webkit-clip-path: polygon(0 0, 100% 95%, 100% 0);
+}
+
+@media only screen and (max-width: 1021px) {
+    #lowerSocialSlant {
+        background-color: #2980b9;
+    }
+}
+
+.socialHeader {
+    color: white;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+/*********************
+EHBO HULST HISTORY PAGE
+*********************/
+
+#historyBottomLine {
+    height: 150px;
+    background-color: #c0392b;
+    clip-path: polygon(0 0, 100% 95%, 100% 100%, 0 5%);
+    webkit-clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 75%);
+}
+
+/*********************
+EHBO HULST CONTACT FORM
+*********************/
+
+.contactForm {
+    height: auto;
+    background-color: #c0392b;
+    margin-right: 2%;
+    padding: 3%;
+}
+
+@media only screen and (max-width: 1021px) {
+    .contactForm {
+        padding: 5%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .contactForm {
+        padding: 10%;
+    }
+}
+
+.contactHeader {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.contactText {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    color: white;
+}
+
+.wpcf7-not-valid-tip {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    color: white !important;
+    margin-top: -1%;
+    margin-bottom: 1%;
+}
+
+.wpcf7-response-output {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: bold;
+    color: white !important;
+}
+
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing, div.wpcf7-display-none, div.wpcf7-mail-sent-ok {
+    border: none !important;
+}
+
+#contactMail {
+    width: 49%;
+    float: left;
+}
+
+#contactTel {
+    width: 49%;
+    float: right;
+}
+
+@media only screen and (max-width: 639px) {
+    #contactMail {
+        width: auto;
+        float: none;
+    }
+
+    #contactTel {
+        width: auto;
+        float: none;
+    }
+}
+
+.wpcf7-submit {
+    float: right;
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    color: #9e2c25;
+    border: none;
+    border-bottom: 5px solid #9e2c25;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 1%;
+}
+
+#lowerContactSlant {
+    background-color: #c0392b;
+    height: 50px;
+    clip-path: polygon(0 0, 100% 95%, 100% 0);
+    -webkit-clip-path: polygon(0 0, 100% 95%, 100% 0);
+}
+
+/*********************
+EHBO HULST NEW COURSE
+*********************/
+
+.newCourse {
+    color: white;
+    height: auto;
+    background-color: #c0392b;
+    padding-top: 5%;
+}
+
+.newCourse_container {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.newCourse_header {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    color: white;
+    float: left;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: -70px;
+}
+
+.newCourse_title {
+    font-weight: bold;
+    color: white;
+    float: left;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.newCourse_text {
+    margin-bottom: 3em;
+}
+
+#courseLeftArrow {
+    float: left;
+    height: 40px;
+    margin-left: 50%;
+}
+
+#courseRightArrow {
+    float: right;
+    height: 40px;
+    margin-right: 50%;
+}
+
+#upperCourseSlant {
+    background-color: #c0392b;
+    height: 50px;
+    clip-path: polygon(0 5%, 0% 100%, 100% 100%);
+    -webkit-clip-path: polygon(0 5%, 0% 100%, 100% 100%);
+}
+
+#lowerCourseSlant {
+    background-color: #c0392b;
+    height: 50px;
+    clip-path: polygon(0 0, 100% 95%, 100% 0);
+    -webkit-clip-path: polygon(0 0, 100% 95%, 100% 0);
+    margin-bottom: -30px;
+}
+
+.newCoursePagination {
+    height: 200px;
+    background-color: #c0392b;
+    clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 75%);
+    webkit-clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 75%);
+}
+
+/*********************
+EHBO HULST NEW COURSE REGISTRATION
+*********************/
+
+.newCourseRegister {
+    background-color: #e74c3c;
+    height: auto;
+    color: white;
+}
+
+.newCourseForm {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.naamVeld {
+    margin-bottom: 2em;
+}
+
+.naamInput {
+    border: none;
+    width: 100%;
+    height: 2.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.emailVeld {
+    float: left;
+    width: 47.5%;
+    margin-bottom: 2em;
+}
+
+.emailInput {
+    width: 100%;
+    border: none;
+    height: 2.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.telVeld {
+    float: right;
+    width: 47.5%;
+    margin-bottom: 2em;
+}
+
+.telInput {
+    width: 100%;
+    border: none;
+    height: 2.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.berichtVeld {
+    margin-bottom: 2em;
+}
+
+.berichtInput {
+    border: none;
+    width: 100%;
+    height: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.newRegistrationSubmit {
+    float: right;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    color: #9e2c25;
+    border: hidden;
+    border-bottom: 5px solid #9e2c25;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0.75em;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 640px) {
+    .newCourseSubmit {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+
+.newCourse_participants {
+    float: right;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+#mobileCourse_leftArrow {
+    float: left;
+    height: 50%;
+    margin-top: 60px;
+    margin-left: 5%;
+}
+
+#mobileCourse_rightArrow {
+    float: right;
+    height: 50%;
+    margin-top: 100px;
+    margin-right: 5%;
+}
+
+/*********************
+EHBO HULST NEWS POSTS
+*********************/
+
+#postPageContent {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*********************
+REPEATING COURSE AGENDA
+*********************/
+
+.repeatingCourse {
+    color: white;
+    height: auto;
+    background-color: #c0392b;
+}
+
+.repeatingCourse_header {
+    font-weight: bold;
+    color: white;
+    float: left;
+    width: 100%;
+    margin-bottom: -5px;
+    margin-left: 5%;
+}
+
+#courseList {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#courseListRow {
+    background-color: #e8dedc;
+    height: 50px;
+}
+
+#courseListRow:nth-child(odd) {
+    background-color: #e8c9c5;
+    height: 50px;
+}
+
+#courseListTitle {
+    font-weight: bold;
+    color: black;
+    font-size: 1em;
+    padding-left: 3%;
+}
+
+#repeatingCourseDate {
+    padding: 1em;
+    font-weight: bold;
+    color: black;
+    font-size: 1em;
+    margin-left: 60% !important;
+}
+
+#repeatingCourseRegistrations {
+    float: right;
+    margin-left: 40%;
+    padding: 1em;
+    font-weight: bold;
+    color: black;
+    font-size: 1em;
+}
+
+#repeatingCourseButtons {
+    width: 27%;
+}
+
+#courseList_registerButton {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #e74c3c;
+    text-align: center;
+    color: white;
+    border: hidden;
+    border-bottom: 5px solid #9e2c25;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#courseList_infoButton {
+    float: right;
+    margin-right: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #e74c3c;
+    text-align: center;
+    color: white;
+    border: hidden;
+    border-bottom: 5px solid #9e2c25;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 640px) {
+    #courseList_registerButton {
+        margin-bottom: 2px;
+        float: left !important;
+    }
+
+    #courseList_infoButton {
+        margin-top: 2px;
+        float: left !important;
+    }
+}
+
+@media only screen and (max-width: 1335px) {
+    #courseList_infoButton {
+        margin-left: 0% !important;
+    }
+}
+
+@media only screen and (max-width: 1340px) {
+    #courseList_infoButton {
+        margin-left: 1%;
+    }
+}
+
+@media only screen and (max-width: 1442px) {
+    #courseList_registerButton {
+        margin-bottom: 2px;
+        float: left !important;
+        margin-right: 0px !important;
+    }
+
+    #courseList_infoButton {
+        margin-top: 2px;
+        margin-left: 2%;
+        margin-right: 0px !important;
+        float: left !important;
+    }
+}
+
+#courseList_infoRow td {
+    padding: 0px;
+    color: black;
+}
+
+#Demo1 {
+    padding: 1em;
+    color: black;
+}
+
+#courseList_registerRow td {
+    padding: 0px !important;
+    color: black;
+}
+
+@import "compass/css3";
+
+a[target="_blank"] {
+&
+:hover {
+    text-decoration: underline;
+&
+:after {
+    content: '\02197';
+    font-style: normal;
+}
+}
+}
+
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+.page-title .vcard {
+    border: 0px;
+    padding: 0px;
+}
+
+.byline {
+    color: #999;
+}
+
+.entry-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.entry-content .alignleft, .entry-content img.alignleft {
+    margin-right: 1.5em;
+    display: inline;
+    float: left;
+}
+
+.entry-content .alignright, .entry-content img.alignright {
+    margin-left: 1.5em;
+    display: inline;
+    float: right;
+}
+
+.entry-content .aligncenter, .entry-content img.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    clear: both;
+}
+
+.entry-content video, .entry-content object {
+    max-width: 100%;
+    height: auto;
+}
+
+.entry-content pre {
+    background: #eee;
+    border: 1px solid #cecece;
+    padding: 10px;
+}
+
+.wp-caption {
+    max-width: 100%;
+    background: #eee;
+    padding: 5px;
+}
+
+.wp-caption img {
+    max-width: 100%;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 0.85em;
+    margin: 4px 0 7px;
+    text-align: center;
+}
+
+.post-password-form input[type="submit"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 1rem 0;
+    font-family: inherit;
+    padding: 0.85em 1em;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    font-size: 0.9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: #1779ba;
+    color: #fefefe;
+}
+
+[data-whatinput='mouse'] .post-password-form input[type="submit"] {
+    outline: 0;
+}
+
+.post-password-form input[type="submit"]:hover, .post-password-form input[type="submit"]:focus {
+    background-color: #14679e;
+    color: #fefefe;
+}
+
+/*********************
+IMAGE GALLERY STYLES
+*********************/
+.gallery {
+    max-width: 100%;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.gallery::before, .gallery::after {
+    content: ' ';
+    display: table;
+}
+
+.gallery::after {
+    clear: both;
+}
+
+.gallery.gallery-columns-1 > dl {
+    width: 100%;
+    float: left;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
+}
+
+@media print, screen and (min-width: 40em) {
+    .gallery.gallery-columns-1 > dl {
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem;
+    }
+}
+
+.gallery.gallery-columns-1 > dl:last-child:not(:first-child) {
+    float: right;
+}
+
+.gallery.gallery-columns-2 > dl {
+    width: 50%;
+    float: left;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
+}
+
+@media print, screen and (min-width: 40em) {
+    .gallery.gallery-columns-2 > dl {
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem;
+    }
+}
+
+.gallery.gallery-columns-2 > dl:last-child:not(:first-child) {
+    float: right;
+}
+
+.gallery.gallery-columns-3 > dl {
+    width: 33.33333%;
+    float: left;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
+}
+
+@media print, screen and (min-width: 40em) {
+    .gallery.gallery-columns-3 > dl {
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem;
+    }
+}
+
+.gallery.gallery-columns-3 > dl:last-child:not(:first-child) {
+    float: right;
+}
+
+.gallery.gallery-columns-4 > dl {
+    width: 25%;
+    float: left;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
+}
+
+@media print, screen and (min-width: 40em) {
+    .gallery.gallery-columns-4 > dl {
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem;
+    }
+}
+
+.gallery.gallery-columns-4 > dl:last-child:not(:first-child) {
+    float: right;
+}
+
+.gallery.gallery-columns-5 > dl {
+    width: 20%;
+    float: left;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
+}
+
+@media print, screen and (min-width: 40em) {
+    .gallery.gallery-columns-5 > dl {
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem;
+    }
+}
+
+.gallery.gallery-columns-5 > dl:last-child:not(:first-child) {
+    float: right;
+}
+
+.gallery.gallery-columns-6 > dl {
+    width: 16.66667%;
+    float: left;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
+}
+
+@media print, screen and (min-width: 40em) {
+    .gallery.gallery-columns-6 > dl {
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem;
+    }
+}
+
+.gallery.gallery-columns-6 > dl:last-child:not(:first-child) {
+    float: right;
+}
+
+.gallery.gallery-columns-7 > dl {
+    width: 14.28571%;
+    float: left;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
+}
+
+@media print, screen and (min-width: 40em) {
+    .gallery.gallery-columns-7 > dl {
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem;
+    }
+}
+
+.gallery.gallery-columns-7 > dl:last-child:not(:first-child) {
+    float: right;
+}
+
+.gallery.gallery-columns-8 > dl {
+    width: 12.5%;
+    float: left;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
+}
+
+@media print, screen and (min-width: 40em) {
+    .gallery.gallery-columns-8 > dl {
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem;
+    }
+}
+
+.gallery.gallery-columns-8 > dl:last-child:not(:first-child) {
+    float: right;
+}
+
+.gallery dl {
+    width: 100%;
+    float: left;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+}
+
+.gallery dl:last-child:not(:first-child) {
+    float: right;
+}
+
+/*********************
+PAGE NAVI STYLES
+*********************/
+.page-navigation {
+    margin-top: 1rem;
+}
+
+/*********************
+COMMENT STYLES
+*********************/
+#comments .commentlist {
+    margin-left: 0px;
+}
+
+#respond ul {
+    margin-left: 0px;
+}
+
+.commentlist li {
+    position: relative;
+    clear: both;
+    overflow: hidden;
+    list-style-type: none;
+    margin-bottom: 1.5em;
+    padding: 0.7335em 10px;
+}
+
+.commentlist li:last-child {
+    margin-bottom: 0;
+}
+
+.commentlist li ul.children {
+    margin: 0;
+}
+
+.commentlist li[class*=depth-] {
+    margin-top: 1.1em;
+}
+
+.commentlist li.depth-1 {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.commentlist li:not(.depth-1) {
+    margin-left: 10px;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+.commentlist .vcard {
+    margin-left: 50px;
+}
+
+.commentlist .vcard cite.fn {
+    font-weight: 700;
+    font-style: normal;
+}
+
+.commentlist .vcard time {
+    float: right;
+}
+
+.commentlist .vcard time a {
+    color: #999;
+    text-decoration: none;
+}
+
+.commentlist .vcard time a:hover {
+    text-decoration: underline;
+}
+
+.commentlist .vcard img.avatar {
+    position: absolute;
+    left: 10px;
+    padding: 2px;
+    border: 1px solid #cecece;
+    background: #fff;
+}
+
+.commentlist .comment_content p {
+    margin: 0.7335em 0 1.5em;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.commentlist .comment-reply-link {
+    float: right;
+}
+
+/*********************
+COMMENT FORM STYLES
+*********************/
+.respond-form {
+    margin: 1.5em 10px;
+    padding-bottom: 2.2em;
+}
+
+.respond-form form {
+    margin: 0.75em 0;
+}
+
+.respond-form form li {
+    list-style-type: none;
+    clear: both;
+    margin-bottom: 0.7335em;
+}
+
+.respond-form form li label,
+.respond-form form li small {
+    display: none;
+}
+
+.respond-form form input[type=text],
+.respond-form form input[type=email],
+.respond-form form input[type=url],
+.respond-form form textarea {
+    padding: 3px 6px;
+    background: #efefef;
+    border: 2px solid #cecece;
+    line-height: 1.5em;
+}
+
+.respond-form form input[type=text]:focus,
+.respond-form form input[type=email]:focus,
+.respond-form form input[type=url]:focus,
+.respond-form form textarea:focus {
+    background: #fff;
+}
+
+.respond-form form input[type=text]:invalid,
+.respond-form form input[type=email]:invalid,
+.respond-form form input[type=url]:invalid,
+.respond-form form textarea:invalid {
+    outline: none;
+    border-color: #fbc2c4;
+    background-color: #f6e7eb;
+    -ms-box-shadow: none;
+    box-shadow: none;
+}
+
+.respond-form form input[type=text],
+.respond-form form input[type=email],
+.respond-form form input[type=url] {
+    max-width: 400px;
+    min-width: 250px;
+}
+
+.respond-form form textarea {
+    resize: none;
+    width: 97.3%;
+    height: 150px;
+}
+
+#comment-form-title {
+    margin: 0 0 1.1em;
+}
+
+#allowed_tags {
+    margin: 1.5em 10px 0.7335em 0;
+}
+
+.nocomments {
+    margin: 0 20px 1.1em;
+}
+
+/*********************
+SIDEBARS & ASIDES
+*********************/
+.sidebar li {
+    list-style: none;
+}
+
+.widget ul {
+    margin: 0;
+}
+
+/*********************
+FOOTER STYLES
+*********************/
+.footer {
+    clear: both;
+    margin-top: 1em;
+}
+
+/*********************
+VISUAL EDITOR STYLES
+*********************/
+body#tinymce {
+    margin: 20px;
+}
+
+/*********************
+PLUGIN STYLES
+*********************/
+.gform_body ul {
+    list-style: none outside none;
+    margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+@font-face {
+    font-family: 'Futura Lt BT';
+    src: url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-LightItalic.woff2') format('woff2'),
+    url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Bk BT';
+    src: url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-BookItalic.woff2') format('woff2'),
+    url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Lt BT';
+    src: url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-Light.woff2') format('woff2'),
+    url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Bk BT';
+    src: url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-Book.woff2') format('woff2'),
+    url('../EHBO-Hulst/wp-includes/fonts/uturaBT-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Hv BT';
+    src: url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-Heavy.woff2') format('woff2'),
+    url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Hv BT';
+    src: url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-HeavyItalic.woff2') format('woff2'),
+    url('../EHBO-Hulst/wp-includes/fonts/FuturaBT-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+h1 {
+    font-family: 'Merriweather Black', serif;
+    color: #c0392b;
+    font-size: 2,667em;
+}
+
+h6 {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    color: black;
+    font-size: 1em;
+}
+
+/*********************
+CREATE NEW COURSE
+*********************/
+
+.createCourse{
+    width: 80%;
+}
+
+#headerTitle{
+    margin-top: 40px;
+}
+
+.titleField{
+    float: left;
+    width: 60%;
+}
+
+.participantsField{
+    float: right;
+    width: 40%;
+}
+
+.backendForm_head{
+    margin-bottom: 1em;
+}
+
+.titleInput{
+    margin-bottom: 2em;
+    width: 80%;
+    height: 2.5em;
+    border-radius: 0px !important;
+}
+
+.participantsInput{
+    margin-bottom: 2em;
+    width: 15%;
+    height: 2.5em;
+    border-radius: 0px !important;
+}
+
+.descriptionInput{
+    margin-bottom: 1em;
+    width: 100%;
+    height: 200px;
+    border-radius: 0px !important;
+}
+
+.formSubmit {
+    float: right;
+    width: 20%;
+    background-color: #e74c3c;
+    text-align: center;
+    color: white;
+    border: hidden;
+    border-bottom: 5px solid #9e2c25;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0.75em;
+}
+
+/*********************
+NEW COURSE LIST
+*********************/
+
+#courseList{
+    width: 80%;
+    margin-top: 20px;
+}
+
+#courseListRow{
+    background-color: #e8dedc;
+    height: 50px;
+}
+
+#courseListRow:nth-child(odd){
+    background-color: #e8c9c5;
+    height: 50px;
+}
+
+#courseListTitle{
+    font-weight: bold;
+    color: black;
+    font-size: 1em;
+    padding-left: 3%;
+}
+
+#courseButtons{
+    width: 30%;
+}
+
+.courseListSelect {
+    float: left;
+    width: 35%;
+    background-color: #e74c3c;
+    text-align: center;
+    color: white;
+    border: hidden;
+    border-bottom: 5px solid #9e2c25;
+    font-weight: bold;
+    font-size: 1.5em;
+
+    cursor: pointer;
+}
+
+.courseListDelete {
+    float: right;
+    margin-right: 20%;
+    width: 20%;
+    background-color: #e92e2e;
+    text-align: center;
+    color: white;
+    border: hidden;
+    border-bottom: 5px solid #991f1f;
+    font-weight: bold;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+/****************************
+MANAGE NEW COURSE - EDIT
+****************************/
+
+.manageNewCourse{
+    width: 100%;
+}
+
+.editTitelInput{
+    width: 80%;
+    height: 2.5em;
+    border-radius: 0px !important;
+}
+
+.editAantalDeelnemersInput{
+    width: 15%;
+    height: 2.5em;
+    border-radius: 0px !important;
+}
+
+.editOmschrijvingInput{
+    margin-bottom: 1em;
+    width: 150%;
+    height: 200px;
+    border-radius: 0px !important;
+}
+
+.formUpdate{
+    float: right;
+    margin-right: -50%;
+    width: 30%;
+    background-color: #e74c3c;
+    text-align: center;
+    color: white;
+    border: hidden;
+    border-bottom: 5px solid #9e2c25;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0.75em;
+}
+
+/***********************************
+MANAGE NEW COURSE - REGISTRATIONS
+***********************************/
+
+.courseListApprove {
+    float: left;
+    margin-top: 0.5%;
+    width: 10%;
+    background-color: #68d660;
+    text-align: center;
+    color: white;
+    border: hidden;
+    border-bottom: 5px solid #4a9945;
+    font-weight: bold;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.courseListDisapprove {
+    float: right;
+    margin-top: 0.5%;
+    margin-right: 10%;
+    width: 10%;
+    background-color: #e92e2e;
+    text-align: center;
+    color: white;
+    border: hidden;
+    border-bottom: 5px solid #991f1f;
+    font-weight: bold;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.courseInfo{
+    float: left;
+    margin-right: 13%;
+    padding: 0.5em 5% 0.5em 5%;
+    background-color: #e74c3c;
+    text-align: center;
+    color: white;
+    border: hidden;
+    border-bottom: 5px solid #9e2c25;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/****************************
+CREATE REPEATING COURSE
+****************************/
+
+.dateInput{
+    height: 2.5em;
+    border-radius: 0px !important;
+}
+
+/*********************
+REPEATING COURSE LIST
+*********************/
+
+#courseListDate{
+    width: 20%;
+    padding: 1em;
+    font-weight: bold;
+    color: black;
+    font-size: 1em;
+}
+
+/*********************
+MANAGE REPEATING COURSE
+*********************/
+
+.manageRepeatingCourse{
+    width: 80%;
+}
+
+.editDateInput{
+    height: 2.5em;
+    border-radius: 0px !important;
+}

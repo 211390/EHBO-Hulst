@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7013863d-aadf-41f7-8479-3319f7922462" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>KalenderEventAdminController</find>
+      <find>$KalenderEventType</find>
+      <find>kalende</find>
+      <find>load_kalender_main_view</find>
+      <find>getDescription</find>
+      <find>description</find>
+      <find>datum</find>
+      <find>Kalender events plugin</find>
+      <find>menuProducten</find>
+      <find>getNrOfMenuItems</find>
+      <find>getMenuItemList</find>
+      <find>voeg een n</find>
+      <find>kalender</find>
+      <find>add</find>
+      <find>update</find>
+      <find>admin_main</find>
+      <find>toevoegen</find>
+      <find>bijwerken</find>
+      <find>_type_obj</find>
+      <find>menuItem</find>
+      <find>admin</find>
+      <find>MenuItem</find>
+      <find>$type_list</find>
+      <find>select</find>
+      <find>prepare</find>
+      <find>getta</find>
+      <find>clear:</find>
+      <find>array_</find>
+      <find>is_int</find>
+      <find>MenuCategoryManager</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>MENU_ITEM_ORGANISER</replace>
+      <replace>MENU_ITEM</replace>
+      <replace>MenuProductAdminController</replace>
+      <replace>$MenuItemType</replace>
+      <replace>load_menu_main_view</replace>
+      <replace>getBeschrijving</replace>
+      <replace>beschrijving</replace>
+      <replace>getNrOfMenuProducten</replace>
+      <replace>getMenuProductenList</replace>
+      <replace>Menu</replace>
+      <replace>MenuProduct</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\School\Examen\kalender-event-organiser</dir>
+      <dir>C:\xampp\htdocs\examens\wp-content\plugins\menu-item-organiser</dir>
+    </dirStrings>
+  </component>
+  <component name="ProjectId" id="1W0zeQIHFGWezlzEe9TxefmnlqF" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7013863d-aadf-41f7-8479-3319f7922462" name="Default Changelist" comment="" />
+      <created>1577547346929</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577547346929</updated>
+      <workItem from="1577547348404" duration="3268000" />
+      <workItem from="1577627497288" duration="2737000" />
+      <workItem from="1577631074107" duration="355000" />
+      <workItem from="1577632942390" duration="1128000" />
+      <workItem from="1577972957748" duration="6181000" />
+      <workItem from="1578070615079" duration="9561000" />
+      <workItem from="1578136381417" duration="15856000" />
+      <workItem from="1578245085040" duration="10119000" />
+      <workItem from="1578255458699" duration="274000" />
+      <workItem from="1578301396134" duration="766000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="89c018f8-7a45-4ad1-bb4d-fc9c6b2a96df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/.idea/Vleesbestellijstplugin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/VleesbestellijstPlugin_AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/VleesbestellijstPlugin_AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/views/admin_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/views/admin_main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/views/diversen_lijst.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/views/diversen_lijst.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/views/kip_lijst.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/views/kip_lijst.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/views/lam_lijst.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/views/lam_lijst.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/views/lampakket_lijst.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/views/lampakket_lijst.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/views/rund_lijst.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/views/rund_lijst.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/views/varken_lijst.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/views/varken_lijst.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/views/vleeswaren_lijst.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/views/vleeswaren_lijst.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/views/voeg_vlees_toe.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/views/wild_lijst.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/views/wild_lijst.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/includes/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/includes/model/Vleesbestellijst.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/includes/model/Vleesbestellijst.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/includes/model/VleesbestellijstProcess.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/includes/model/VleesbestellijstProcess.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/includes/views/VBL_Add.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/includes/views/VBL_Add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/includes/views/icon/varken.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/includes/views/icon/varken.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/includes/views/test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/includes/views/viewer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/includes/views/viewer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/includes/views/vleesbestellijst_plugin_main_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/includes/views/vleesbestellijst_plugin_main_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/vleesbestellijst-plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/vleesbestellijst-plugin.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="false" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1941270583">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="26" />
+          <entry key="project.open.time.0" value="7" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.7" value="6" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="29" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="5586" />
+          <entry key="dummy" value="51" />
+          <entry key="php" value="3414" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="5586" />
+          <entry key="HTML" value="14" />
+          <entry key="PHP" value="3400" />
+          <entry key="PLAIN_TEXT" value="51" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="7" />
+          <entry key="md" value="1" />
+          <entry key="php" value="94" />
+          <entry key="rnc" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="7" />
+          <entry key="Markdown" value="1" />
+          <entry key="PHP" value="94" />
+          <entry key="RNG Compact" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/admin/cursusPlugin_adminController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/cursusPlugin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1350">
+              <caret line="126" selection-start-line="126" selection-end-line="126" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/includes/defs.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/includes/views/view_shortcodes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/admin/views/cursusPlugin_admin_createNewCourse.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/admin/views/cursusPlugin_admin_manageNewCourse.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1632">
+              <caret line="108" column="59" selection-start-line="108" selection-start-column="59" selection-end-line="108" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/admin/views/stylesheet_admin.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/includes/model/Image_proccesser_addon.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/includes/model/newCourseRegistration_processor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5624">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/includes/views/newCourseForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>post-thumbnail size</find>
+      <find>thumbnail</find>
+      <find>the_post_thumbnail()</find>
+      <find>localhost</find>
+      <find>afbeelding_naam</find>
+      <find>IVS_STYLGUIDE_GALLERY</find>
+      <find>CURSUS_PLUGIN</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>CURSUS_PLUGIN</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\laragon\www\EHBO-Hulst</dir>
+      <dir>C:\laragon\www\EHBO-Hulst\wp-content\themes\EHBO Hulst</dir>
+      <dir>C:\laragon\www\EHBO-Hulst\wp-content\plugins\cursusPlugin</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions.php" />
+        <option value="$PROJECT_DIR$/wp-includes/post-thumbnail-template.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/sidebar.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/template-contact.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/content-offcanvas.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/template-historie.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/nav-title-bar.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/nav-offcanvas-topbar.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/assets/styles/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/template-home.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/cursusPlugin/includes/defs.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/cursusPlugin/cursusPlugin.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/cursusPlugin/admin/cursusPlugin_adminController.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/cursusPlugin/admin/views/cursusPlugin_admin_createNewCourse.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/cursusPlugin/admin/views/cursusPlugin_admin_manageNewCourse.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/cursusPlugin/includes/views/view_shortcodes.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/cursusPlugin/includes/model/newCourseRegistration_processor.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/wp-content/plugins/smart-slider-3/includes/integrations/Divi/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="EHBO-Hulst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EHBO-Hulst" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EHBO-Hulst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EHBO-Hulst" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EHBO-Hulst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EHBO-Hulst" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EHBO-Hulst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EHBO-Hulst" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="cursusPlugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EHBO-Hulst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EHBO-Hulst" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="cursusPlugin" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EHBO-Hulst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EHBO-Hulst" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="cursusPlugin" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EHBO-Hulst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EHBO-Hulst" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="cursusPlugin" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EHBO-Hulst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EHBO-Hulst" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="cursusPlugin" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EHBO-Hulst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EHBO-Hulst" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="cursusPlugin" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/plugins" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.ChangelistConflict" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\EHBO-Hulst\wp-content\plugins" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\EHBO-Hulst\wp-content\plugins\cursusPlugin" />
+      <recent name="C:\laragon\www\EHBO-Hulst\wp-content\themes\EHBO Hulst" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89c018f8-7a45-4ad1-bb4d-fc9c6b2a96df" name="Default Changelist" comment="" />
+      <created>1574240080507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574240080507</updated>
+      <workItem from="1574240081820" duration="79000" />
+      <workItem from="1574255619070" duration="283000" />
+      <workItem from="1574371612140" duration="497000" />
+      <workItem from="1574409482036" duration="16980000" />
+      <workItem from="1574513496352" duration="4076000" />
+      <workItem from="1574548955548" duration="717000" />
+      <workItem from="1574603252824" duration="3769000" />
+      <workItem from="1574619180149" duration="4234000" />
+      <workItem from="1574669340319" duration="9909000" />
+      <workItem from="1574699576939" duration="12281000" />
+      <workItem from="1574760815121" duration="8287000" />
+      <workItem from="1574780445951" duration="8551000" />
+      <workItem from="1574845303315" duration="9465000" />
+      <workItem from="1574882588862" duration="15034000" />
+      <workItem from="1574943056274" duration="1644000" />
+      <workItem from="1574954075929" duration="1895000" />
+      <workItem from="1574977607821" duration="22000" />
+      <workItem from="1574977676323" duration="4019000" />
+      <workItem from="1575024609507" duration="42000" />
+      <workItem from="1575140182974" duration="8573000" />
+      <workItem from="1575198419184" duration="161000" />
+      <workItem from="1575274041113" duration="2693000" />
+      <workItem from="1575313855336" duration="10628000" />
+      <workItem from="1575629074513" duration="800000" />
+      <workItem from="1576499669194" duration="513000" />
+      <workItem from="1578171322496" duration="191000" />
+      <workItem from="1578171651426" duration="16000" />
+      <workItem from="1578171670401" duration="8628000" />
+      <workItem from="1578228889138" duration="3908000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="137895000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2885906" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15778251" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/page.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/link-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="2475" column="40" selection-start-line="2475" selection-start-column="34" selection-end-line="2475" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/nav-offcanvas.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/header.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/content-offcanvas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/template-contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Codereview Z&amp;C/template-ietstevieren.php" />
+    <entry file="file://$USER_HOME$/Downloads/Codereview Z&amp;C/template-home.php" />
+    <entry file="file://$USER_HOME$/Downloads/Codereview Z&amp;C/template-contact.php" />
+    <entry file="file://$USER_HOME$/Downloads/Codereview Z&amp;C/nav-offcanvas-topbar.php" />
+    <entry file="file://$USER_HOME$/Downloads/Codereview Z&amp;C/footer.php" />
+    <entry file="file://$USER_HOME$/Downloads/Codereview Z&amp;C/template-overons.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/nav-title-bar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/nav-topbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/assets/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="235" column="35" lean-forward="true" selection-start-line="235" selection-start-column="35" selection-end-line="235" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/nav-offcanvas-topbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/template-historie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ivs-styleguide-website-gallery-plugin/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/template-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="871">
+          <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
+          <folding>
+            <element signature="e#7#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/Constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ivs-styleguide-website-gallery-plugin/includes/views/view_shortcodes.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ivs-styleguide-website-gallery-plugin/admin/views/stylesheet_admin.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/VleesbestellijstPlugin_AdminController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/admin/views/admin_main.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/Vleesbestellijstplugin-New/vleesbestellijst-plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="21" lean-forward="true" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ivs-styleguide-website-gallery-plugin/admin/views/ivs_gallery_admin_accept_images.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="91" column="13" lean-forward="true" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ivs-styleguide-website-gallery-plugin/includes/views/add_image_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ivs-styleguide-website-gallery-plugin/includes/defs.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ivs-styleguide-website-gallery-plugin/includes/model/Image_proccesser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ivs-styleguide-website-gallery-plugin/admin/views/ivs_gallery_admin_categorie.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/admin/views/ivs_gallery_admin_categorie.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/includes/model/stylesheet_frontend.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/includes/model/image_slider.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/includes/views/gallery.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ivs-styleguide-website-gallery-plugin/ivs-styleguide-gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ivs-styleguide-website-gallery-plugin/admin/IvsGalleryPlugin_AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/zaos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/cursusPlugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/admin/cursusPlugin_adminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/admin/views/stylesheet_admin.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/includes/defs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/includes/views/view_shortcodes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/admin/views/cursusPlugin_admin_createNewCourse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/admin/views/cursusPlugin_admin_manageNewCourse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="108" column="59" selection-start-line="108" selection-start-column="59" selection-end-line="108" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/includes/model/Image_proccesser_addon.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/includes/views/newCourseForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/cursusPlugin/includes/model/newCourseRegistration_processor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5624">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
