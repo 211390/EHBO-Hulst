@@ -2,250 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89c018f8-7a45-4ad1-bb4d-fc9c6b2a96df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/cursusPlugin/includes/model/registrationView.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/cursusPlugin/includes/model/registrationView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/.idea/EHBO Hulst.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/.idea/EHBO Hulst.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/Constants.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/Constants.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/archive.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/assets/images/apple-icon-touch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/assets/images/apple-icon-touch.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/assets/images/login-logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/assets/images/login-logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/assets/images/site-logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/assets/images/site-logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/assets/images/win8-tile-icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/assets/images/win8-tile-icon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/assets/scripts/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/assets/scripts/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/assets/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/assets/styles/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/assets/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/comments.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/css/foundation-float.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/css/foundation-float.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/css/foundation-float.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/css/foundation-float.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/css/foundation-prototype.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/css/foundation-prototype.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/css/foundation-prototype.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/css/foundation-prototype.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/css/foundation-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/css/foundation-rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/css/foundation-rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/css/foundation-rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/css/foundation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/css/foundation.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/css/foundation.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/css/foundation.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/foundation.cjs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/foundation.cjs.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/foundation.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/foundation.es6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/foundation.es6.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/foundation.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/foundation.esm.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/foundation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/foundation.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/foundation.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/foundation.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.abide.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.abide.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.abide.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.abide.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.abide.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.abide.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.abide.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.accordion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.accordion.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.accordion.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.accordion.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.accordionMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.accordionMenu.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.accordionMenu.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.accordionMenu.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.core.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.core.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.core.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.core.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.core.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.core.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.core.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.drilldown.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.drilldown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.drilldown.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.drilldown.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.drilldown.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.dropdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.dropdown.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.dropdown.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.dropdown.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.dropdownMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.dropdownMenu.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.dropdownMenu.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.dropdownMenu.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.equalizer.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.equalizer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.equalizer.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.equalizer.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.equalizer.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.interchange.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.interchange.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.interchange.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.interchange.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.interchange.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.magellan.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.magellan.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.magellan.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.magellan.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.magellan.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.offcanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.offcanvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.offcanvas.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.offcanvas.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.offcanvas.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.orbit.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.orbit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.orbit.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.orbit.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.orbit.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.orbit.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.orbit.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.responsiveAccordionTabs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.responsiveAccordionTabs.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.responsiveAccordionTabs.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.responsiveAccordionTabs.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.responsiveMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.responsiveMenu.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.responsiveMenu.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.responsiveMenu.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.responsiveToggle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.responsiveToggle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.responsiveToggle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.responsiveToggle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.reveal.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.reveal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.reveal.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.reveal.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.reveal.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.reveal.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.reveal.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.slider.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.slider.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.slider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.slider.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.slider.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.smoothScroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.smoothScroll.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.smoothScroll.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.smoothScroll.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.sticky.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.sticky.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.sticky.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.sticky.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.sticky.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.sticky.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.sticky.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.tabs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.tabs.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.tabs.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.tabs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.tabs.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.tabs.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.toggler.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.toggler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.toggler.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.toggler.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.toggler.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.toggler.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.toggler.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.tooltip.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.tooltip.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.tooltip.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.tooltip.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.tooltip.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.tooltip.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.box.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.util.box.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.box.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.box.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.box.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.imageLoader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.imageLoader.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.imageLoader.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.imageLoader.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.keyboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.keyboard.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.keyboard.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.keyboard.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.mediaQuery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.mediaQuery.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.mediaQuery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.mediaQuery.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.motion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.motion.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.motion.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.motion.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.nest.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.util.nest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.nest.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.nest.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.nest.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.timer.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.util.timer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.timer.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.timer.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.timer.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.touch.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/foundation-sites/dist/js/plugins/foundation.util.touch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.touch.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.touch.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.touch.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.triggers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.triggers.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.triggers.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/foundation-sites/dist/js/plugins/foundation.util.triggers.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/cleanup.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/cleanup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/comments.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/custom-post-type.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/custom-post-type.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/disable-emoji.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/disable-emoji.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/editor-styles.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/editor-styles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/enqueue-scripts.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/enqueue-scripts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/page-navi.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/page-navi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/related-posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/related-posts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/theme-support.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/theme-support.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/README" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/da_DK.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/da_DK.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/de_DE.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/de_DE.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/de_DE.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/de_DE.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/default.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/default.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/default.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/default.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/es_ES.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/es_ES.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/es_ES.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/es_ES.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/fr_FR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/fr_FR.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/fr_FR.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/he_IL.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/he_IL.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/he_IL.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/he_IL.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/hr.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/hr.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/hr.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/hr.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/it_IT.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/it_IT.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/it_IT.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/it_IT.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/nl_NL.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/nl_NL.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/nl_NL.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/nl_NL.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/pl_PL.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/pl_PL.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/pl_PL.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/pl_PL.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/pt_BR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/pt_BR.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/pt_PT.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/pt_PT.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/pt_PT.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/pt_PT.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/ru_RU.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/ru_RU.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/ru_RU.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/ru_RU.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/sv_SE.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/sv_SE.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/sv_SE.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/sv_SE.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/translation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/translation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/zh_CN.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/zh_CN.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/functions/translation/zh_CN.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/functions/translation/zh_CN.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/content-byline.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/parts/content-byline.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/content-missing.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/parts/content-missing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/content-offcanvas.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/parts/content-offcanvas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/loop-archive-grid.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/parts/loop-archive-grid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/loop-archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/parts/loop-archive.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/loop-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/parts/loop-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/loop-single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/parts/loop-single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/nav-offcanvas-topbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/parts/nav-offcanvas-topbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/nav-offcanvas.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/parts/nav-offcanvas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/nav-title-bar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/parts/nav-title-bar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/nav-topbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/parts/nav-topbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/screenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/screenshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/searchform.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/searchform.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/template-contact.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/template-full-width.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/template-historie.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/template-home.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/EHBO Hulst/template-programma.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/wflogs/config-livewaf.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/wflogs/config-livewaf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/cursusPlugin/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/cursusPlugin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/cursusPlugin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/cursusPlugin/admin/views/adminSubMenuManageNewCourse.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/cursusPlugin/admin/views/adminSubMenuManageNewCourse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/cursusPlugin/includes/model/newCourses.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/cursusPlugin/includes/model/newCourses.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/wflogs/config-synced.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/wflogs/config-synced.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -315,10 +76,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/template-programma.php">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/template-programma.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="412" column="30" lean-forward="true" selection-start-line="412" selection-start-column="30" selection-end-line="412" selection-end-column="30" />
+            <state relative-caret-position="313">
+              <caret line="408" column="33" lean-forward="true" selection-start-line="408" selection-start-column="33" selection-end-line="408" selection-end-column="33" />
               <folding>
                 <element signature="e#6#85#0#PHP" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#main#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -514,7 +275,7 @@
               <item name="EHBO-Hulst" type="462c0819:PsiDirectoryNode" />
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="EHBO_Hulst" type="462c0819:PsiDirectoryNode" />
+              <item name="EHBO Hulst" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -596,7 +357,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144731000" />
+    <option name="totallyTimeSpent" value="145015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -651,27 +412,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/header.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/header.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/style.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/footer.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/parts/content-offcanvas.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/content-offcanvas.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="64" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/template-contact.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/template-contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
@@ -684,35 +445,35 @@
     <entry file="file://$USER_HOME$/Downloads/Codereview Z&amp;C/nav-offcanvas-topbar.php" />
     <entry file="file://$USER_HOME$/Downloads/Codereview Z&amp;C/footer.php" />
     <entry file="file://$USER_HOME$/Downloads/Codereview Z&amp;C/template-overons.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/parts/nav-title-bar.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/nav-title-bar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/parts/nav-topbar.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/nav-topbar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/assets/styles/style.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/assets/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="235" column="35" lean-forward="true" selection-start-line="235" selection-start-column="35" selection-end-line="235" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/parts/nav-offcanvas-topbar.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/parts/nav-offcanvas-topbar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/template-historie.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/template-historie.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="35" selection-start-line="35" selection-end-line="35" />
@@ -727,14 +488,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/template-home.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/template-home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="871">
           <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/Constants.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/Constants.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
@@ -842,10 +603,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO_Hulst/template-programma.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/EHBO Hulst/template-programma.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="412" column="30" lean-forward="true" selection-start-line="412" selection-start-column="30" selection-end-line="412" selection-end-column="30" />
+        <state relative-caret-position="313">
+          <caret line="408" column="33" lean-forward="true" selection-start-line="408" selection-start-column="33" selection-end-line="408" selection-end-column="33" />
           <folding>
             <element signature="e#6#85#0#PHP" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#main#0;n#div#0;n#div#0;n#!!top" expanded="true" />
