@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Created by PhpStorm.
  * User: Thijs van der Poel
@@ -19,13 +18,47 @@ $registrationView = new registrationView();
 
 $post_array = $registrationView->getPostValues();
 
+if (isset($_GET['action'])) {
+    $action = $_GET['action'];
+
+    if ($action === 'registerForNewCourse') {
+        $registrationView
+            ->setName($post_array['studentName'])
+            ->setTel($post_array['tel'])
+            ->setMail($post_array['mail'])
+            ->setComment($post_array['comment'])
+            ->setCourseType($post_array['courseType']);
+
+        try {
+            $registrationView->save();
+        } catch (Exception $exception) {
+            throw $exception;
+        }
+    }
+
+    if ($action === 'registerForRepeatingCourse') {
+        $registrationView
+            ->setName($post_array['studentName'])
+            ->setTel($post_array['tel'])
+            ->setMail($post_array['mail'])
+            ->setComment($post_array['comment'])
+            ->setRepeatingID($post_array['courseType']);
+
+        try {
+            $registrationView->save();
+        } catch (Exception $exception) {
+            throw $exception;
+        }
+    }
+}
+
 $add = FALSE;
 $error = FALSE;
 
 // Check post data
 if (!empty($post_array)) {
     // Determine value enableParticipants by existance of minParticipants
-    if (isset($post_array['add'])) {
+    if (isset($post_array['add']) && !isset($_GET['action'])) {
         // Save opleiding
         $result = $registrationView->save($post_array);
         if ($result) {
@@ -171,14 +204,18 @@ if (!empty($post_array)) {
                         </div>
                     </div>
                     <!--REGISTRATION-->
-                    <div class="grid-x newCourseRegister" id="registrationSection">
+                    <div class="grid-x newCourseRegister <?php
+                    if (!$registrationView->canRegister($current_course)) {
+                        echo 'hide';
+                    } ?>" id="registrationSection">
                         <div class="cell small-1 medium-1 large-1"></div>
                         <!--REGISTRATION FORM-->
-                        <form class="newCourseForm small-10 medium-10 large-10 cell" method="post">
+                        <form class="newCourseForm small-10 medium-10 large-10 cell" method="post"
+                              action="?action=registerForNewCourse">
                             <input type="hidden" name="newID" value="<?php echo $current_course->getNewID(); ?>">
                             <div class="naamVeld">
                                 <h6 class="newCourse_title">Naam</h6>
-                                <input class="naamInput" name="name">
+                                <input class="naamInput" name="studentName">
                             </div>
                             <div class="emailVeld">
                                 <h6 class="newCourse_title">E-mail</h6>
@@ -199,11 +236,11 @@ if (!empty($post_array)) {
                             <div class="grid-x">
                                 <div class="cell small-0 medium-2 large-7"></div>
                                 <!--Amount of participants; Je kunt per Cursus ID kijken hoeveel mensen zich hebben ingeschreven op dat ID-->
-                                <p class="newCourse_participants cell small-12 medium-4 large-2"> <?php echo '?' . '/' . $current_course->getMinParticipants() . ' Inschrijvingen'; ?></p>
+                                <p class="newCourse_participants cell small-12 medium-4 large-2"> <?php echo sprintf('%s/%s Benodigde Inschrijvingen', count($registrationView->getRegistrations($current_course)), $current_course->getMinParticipants()) ?></p>
                                 <!--SUBMIT REGISTRATION-->
                                 <div class="cell small-12 medium-4 large-2">
-                                        <button type="submit" name="add" class="newRegistrationSubmit" formaction="registerToCourse">Inschrijven
-                                        </button>
+                                    <button type="submit" name="add" class="newRegistrationSubmit">Inschrijven
+                                    </button>
                                 </div>
                             </div>
                         </form>
@@ -298,7 +335,7 @@ if (!empty($post_array)) {
                                         </td>
                                         <td id='repeatingCourseRegistrations'>
                                             <p>
-                                                <?php echo '?' . '/' . $obj->getMaxParticipants(); ?>
+                                                <?php echo sprintf('%s/%s', count($registrationView->getRegistrations($obj)), $obj->getMaxParticipants()); ?>
                                             </p>
                                         </td>
                                         <td id="repeatingCourseButtons">
@@ -327,12 +364,12 @@ if (!empty($post_array)) {
                                                     <div class="cell small-1 medium-1 large-1"></div>
                                                     <!--REGISTRATION FORM-->
                                                     <form class="newCourseForm small-10 medium-10 large-10 cell"
-                                                          method="post">
+                                                          method="post" action="?action=registerForRepeatingCourse">
                                                         <input type="hidden" name="repeatingID"
                                                                value="<?php echo $current_course->getRepeatingID(); ?>">
                                                         <div class="naamVeld">
                                                             <h6 class="newCourse_title">Naam</h6>
-                                                            <input class="naamInput" name="name">
+                                                            <input class="naamInput" name="studentName">
                                                         </div>
                                                         <div class="emailVeld">
                                                             <h6 class="newCourse_title">E-mail</h6>
@@ -356,7 +393,7 @@ if (!empty($post_array)) {
                                                             <!--SUBMIT REGISTRATION-->
                                                             <div class="cell small-12 medium-4 large-2">
                                                                 <a href="<?php //Submit ?>">
-                                                                    <button type="button" name="add"
+                                                                    <button type="submit" name="add"
                                                                             class="newRegistrationSubmit">Inschrijven
                                                                     </button>
                                                                 </a>

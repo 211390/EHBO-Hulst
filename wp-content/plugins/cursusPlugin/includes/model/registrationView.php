@@ -22,77 +22,132 @@ class registrationView
 
     private $courseType = "";
 
-    public function setRegistrationID($registrationID){
+    private $repeatingID;
+
+    /**
+     * @return string
+     */
+    private function getTableName()
+    {
+        return 'wp_cp_registration';
+    }
+
+    public function setRegistrationID($registrationID)
+    {
         if (intval($registrationID)) {
             $this->registrationID = $registrationID;
         }
+
+        return $this;
     }
 
-    public function setName($name){
+    public function setName($name)
+    {
         if (is_string($name)) {
             $this->name = trim($name);
         }
+
+        return $this;
     }
 
-    public function setMail($mail){
+    public function setMail($mail)
+    {
         if (is_string($mail)) {
             $this->mail = trim($mail);
         }
+
+        return $this;
     }
 
-    public function setTel($tel){
+    public function setTel($tel)
+    {
         if (is_string($tel)) {
             $this->tel = trim($tel);
         }
+
+        return $this;
     }
 
-    public function setComment($comment){
+    public function setComment($comment)
+    {
         if (is_string($comment)) {
             $this->comment = trim($comment);
         }
+
+        return $this;
     }
 
-    public function setApproval($approval){
+    public function setApproval($approval)
+    {
         if (is_string($approval)) {
             $this->approval = trim($approval);
         }
+
+        return $this;
     }
 
-    public function setCourseType($courseType){
-        if (is_string($courseType)) {
-            $this->courseType = trim($courseType);
+    public function setCourseType($courseType)
+    {
+        if (empty($courseType)) {
+            throw new RuntimeException('The course type may not be NULL or empty.');
         }
+
+        $this->courseType = (int)$courseType;
+
+        return $this;
     }
 
-    public function getRegistrationID(){
+
+    public function setRepeatingID($id)
+    {
+        $this->repeatingID = (int)$id;
+
+        return $this;
+    }
+
+
+    public function getRegistrationID()
+    {
         return $this->registrationID;
     }
 
-    public function getName(){
+    public function getName()
+    {
         return $this->name;
     }
 
-    public function getMail(){
+    public function getMail()
+    {
         return $this->mail;
     }
 
-    public function getTel(){
+    public function getTel()
+    {
         return $this->tel;
     }
 
-    public function getComment(){
+    public function getComment()
+    {
         return $this->comment;
     }
 
-    public function getApproval(){
-        return $this->approval;
+    public function getApproval()
+    {
+        return (bool)$this->approval;
     }
 
-    public function getCourseType(){
+    public function getCourseType()
+    {
         return $this->courseType;
     }
 
-    public function getGetValues(){
+    public function getRepeatingID()
+    {
+        return $this->repeatingID;
+    }
+
+    public function getGetValues()
+    {
         // Define the check for params
         $get_check_array = array(
             // Action
@@ -115,7 +170,8 @@ class registrationView
         return $inputs;
     }
 
-    public function getPostValues(){
+    public function getPostValues()
+    {
         // Define the check for params
         $post_check_array = array(
             // submit action
@@ -124,6 +180,7 @@ class registrationView
             'add' => array('filter' => FILTER_SANITIZE_STRING),
             'update' => array('filter' => FILTER_SANITIZE_STRING),
             'name' => array('filter' => FILTER_SANITIZE_STRING),
+            'studentName' => array('filter' => FILTER_SANITIZE_STRING),
             'mail' => array('filter' => FILTER_SANITIZE_STRING),
             'tel' => array('filter' => FILTER_SANITIZE_STRING),
             'comment' => array('filter' => FILTER_SANITIZE_STRING),
@@ -138,11 +195,79 @@ class registrationView
         return $inputs;
     }
 
-    public function isSubmit($post_inputs){
+    /**
+     * @param newCourses $course
+     *
+     * @return bool
+     */
+    public function canRegister($course)
+    {
+        if (empty($course->getMinParticipants()) || $course->getMinParticipants() <= 0) {
+            return false;
+        }
+
+        return true;
+    }
+
+    /**
+     * @param newCourses $course
+     *
+     * @throws Exception
+     *
+     * @return array
+     */
+    public function getRegistrations($course)
+    {
+        if ($course instanceof newCourses) {
+            $results = $this->getRegistrationsFromNewCourse($course);
+        } elseif ($course instanceof repeatingCourses) {
+            $results = $this->getRegistrationsFromRepeatingCourse($course);
+        } else {
+            throw new Exception('Er is iets fout gegaan.');
+        }
+
+        return $results;
+    }
+
+    /**
+     * @param newCourses $course
+     *
+     * @return array
+     */
+    private function getRegistrationsFromNewCourse($course)
+    {
+        global $wpdb;
+
+        $id = $course->getNewID();
+
+        $results = $wpdb->get_results("SELECT * FROM {$this->getTableName()} WHERE courseType = {$id}", ARRAY_A);
+
+        return $results;
+    }
+
+    /**
+     * @param repeatingCourses $course
+     *
+     * @return array
+     */
+    private function getRegistrationsFromRepeatingCourse($course)
+    {
+        global $wpdb;
+
+        $id = $course->getRepeatingID();
+
+        $results = $wpdb->get_results("SELECT * FROM {$this->getTableName()} WHERE repeatingID = {$id}", ARRAY_A);
+
+        return $results;
+    }
+
+    public function isSubmit($post_inputs)
+    {
 
     }
 
-    public function getRegistrationAmount(){
+    public function getRegistrationAmount()
+    {
         global $wpdb;
 
         $query = "SELECT COUNT(*) AS nr FROM `" . $this->getTableName() . "`";
@@ -151,7 +276,8 @@ class registrationView
         return $result[0]['nr'];
     }
 
-    public function getRegistrationList(){
+    public function getRegistrationList()
+    {
         global $wpdb;
         $return_array = array();
 
@@ -177,38 +303,37 @@ class registrationView
         return $return_array;
     }
 
-    public function save($input_array){
+    public function save()
+    {
         try {
-            if (!isset($input_array['name'])) {
+            if (empty($this->name)) {
                 // Mandatory fields are missing
-                throw new Exception(__("Naam veld is verplicht"));
+                throw new Exception("Naam veld is verplicht");
             }
 
-            if (!isset($input_array['mail'])) {
+            if (empty($this->mail)) {
                 // Mandatory fields are missing
-                throw new Exception(__("E-mail veld is verplicht"));
+                throw new Exception("E-mail veld is verplicht");
             }
 
-            if (!isset($input_array['tel'])) {
+            if (empty($this->tel)) {
                 // Mandatory fields are missing
-                throw new Exception(__("Telefoonnummer veld is verplicht"));
+                throw new Exception("Telefoonnummer veld is verplicht");
             }
 
-            if (!isset($input_array['comment'])) {
+            if (empty($this->courseType) && empty($this->repeatingID)) {
                 // Mandatory fields are missing
-                throw new Exception(__("Bericht veld is verplicht"));
-            }
-            if (!isset($input_array['courseType'])) {
-                // Mandatory fields are missing
-                throw new Exception(__("Cursus type veld is verplicht"));
+                throw new Exception("Er ging iets fout tijdens het opslaan.");
             }
 
             global $wpdb;
 
             // Insert query
-            $wpdb->query($wpdb->prepare("INSERT INTO `" . $this->getTableName() .
-                "` ( `name`, `mail`,`tel`,`comment`,`courseType`)" .
-                " VALUES ( '%s', '%s','%s', '%s', '%d');", $input_array['name'], $input_array['mail'], $input_array['tel'], $input_array['comment'], $input_array['courseType']));
+            $wpdb->query(
+                $wpdb->prepare("INSERT INTO `" . $this->getTableName() .
+                    "` (`name`, `mail`,`tel`,`comment`, `approval`, `courseType`, `repeatingID`)" .
+                    " VALUES ('%s', '%s','%s', '%s', '0', '%d', '%d');", $this->name, $this->mail, $this->tel, $this->comment, $this->courseType, $this->repeatingID)
+            );
             // Error ? It's in there:
             if (!empty($wpdb->last_error)) {
                 $this->last_error = $wpdb->last_error;
@@ -217,15 +342,16 @@ class registrationView
 
         } catch (Exception $exc) {
             // @todo: Add error handling
-            echo '<pre>' . $exc->getTraceAsString() . ' < / pre>';
+            echo '<pre>' . $exc->getTraceAsString() . '</pre>';
         }
 
         return TRUE;
     }
 
-    public function update($input_array){
+    public function update($input_array)
+    {
         try {
-            $array_fields = array('registrationID', 'name','mail', 'tel', 'comment', 'approval', 'courseType');
+            $array_fields = array('registrationID', 'name', 'mail', 'tel', 'comment', 'approval', 'courseType');
             $data_array = array();
 
             // Check fields
@@ -245,7 +371,7 @@ class registrationView
             //*
             $wpdb->query($wpdb->prepare("UPDATE " . $this->getTableName() .
                 " SET `name` = '%s', `mail` = '%s',`tel` = '%s',`comment` = '%s', `approval` = '%d', `courseType` = '%d' " .
-                "WHERE `".$this->getTableName()."`.`registrationID` =%d;", $input_array['name'], $input_array['mail'], $input_array['tel'], $input_array['comment'],$input_array['approval'], $input_array['courseType'], $input_array['registrationID']));
+                "WHERE `" . $this->getTableName() . "`.`registrationID` =%d;", $input_array['name'], $input_array['mail'], $input_array['tel'], $input_array['comment'], $input_array['approval'], $input_array['courseType'], $input_array['registrationID']));
 
         } catch (Exception $exc) {
 
@@ -257,11 +383,13 @@ class registrationView
         return TRUE;
     }
 
-    public function delete($input_array){
+    public function delete($input_array)
+    {
         try {
             // Check input id
-            if (!isset($input_array['registrationID'])){
-                throw new Exception(__("Missing mandatory fields"));}
+            if (!isset($input_array['registrationID'])) {
+                throw new Exception(__("Missing mandatory fields"));
+            }
             global $wpdb;
 
             // Delete row by provided id (Wordpress style)
@@ -283,7 +411,8 @@ class registrationView
         return TRUE;
     }
 
-    public function handleGetAction($get_array){
+    public function handleGetAction($get_array)
+    {
         $action = '';
 
         switch ($get_array['action']) {
@@ -309,19 +438,23 @@ class registrationView
         return $action;
     }
 
-    public function getNewCourseByID($newID){
+    public function getNewCourseByID($newID)
+    {
         return $this->newID;
     }
 
-    public function getRepeatingCourseByID($repeatingID){
+    public function getRepeatingCourseByID($repeatingID)
+    {
         return $this->repeatingID;
     }
 
-    public function registrationAlertMail(){
+    public function registrationAlertMail()
+    {
 
     }
 
-    public function approvalMail(){
+    public function approvalMail()
+    {
 
     }
 }
