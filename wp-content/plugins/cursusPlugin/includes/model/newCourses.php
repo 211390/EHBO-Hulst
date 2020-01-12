@@ -293,7 +293,6 @@ class newCourses
         $course = $wpdb->get_row("SELECT wp_cp_newcourse.title FROM wp_cp_newcourse INNER JOIN wp_cp_registration ON wp_cp_registration.courseType = wp_cp_newcourse.newID WHERE wp_cp_registration.courseType={$courseid}");
         $wpdb->query("UPDATE wp_cp_registration SET approval = 1 WHERE registrationID ={$id}");
         mail($mail->mail, 'Goed keuring registratie', 'U bent goedgekeurd voor de ' . $course->title);
-
     }
 
     public function setRegistrationToDenied($id)

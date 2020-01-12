@@ -77,11 +77,12 @@ if (!empty($post_array)) {
 
 <script>
     function myFunction(id) {
-        var x = document.getElementById(id);
-        if (x.className.indexOf("w3-show") == -1) {
-            x.className += " w3-show";
+        var repeatCourseForm = document.getElementById(id);
+
+        if (repeatCourseForm.className.indexOf("w3-show") == -1) {
+            repeatCourseForm.className += " w3-show";
         } else {
-            x.className = x.className.replace(" w3-show", "");
+            repeatCourseForm.className = repeatCourseForm.className.replace(" w3-show", "");
         }
     }
 </script>
@@ -339,17 +340,23 @@ if (!empty($post_array)) {
                                             </p>
                                         </td>
                                         <td id="repeatingCourseButtons">
-                                            <button id='courseList_registerButton'
-                                                    onclick="myFunction('registerRowContainer')">Inschrijven
-                                            </button>
-                                            <button id='courseList_infoButton' onclick="myFunction('Demo1')">Meer
+                                            <?php if (! empty($obj->getMaxParticipants()) && $obj->getMaxParticipants() !== 0) { ?>
+                                                <button id='courseList_registerButton'
+                                                        onclick="myFunction('js-repeat-course-<?php echo $obj->getRepeatingID(); ?>')">
+                                                    Inschrijven
+                                                </button>
+                                            <?php } ?>
+                                            <button id='courseList_infoButton'
+                                                    onclick="myFunction('js-repeat-course-<?php echo $obj->getRepeatingID(); ?>')">
+                                                Meer
                                                 informatie
                                             </button>
                                         </td>
                                     </tr>
                                     <tr id="courseList_infoRow">
                                         <td colspan="4">
-                                            <div id="Demo1" class="w3-hide">
+                                            <div id="js-repeat-course-<?php echo $obj->getRepeatingID(); ?>"
+                                                 class="w3-hide">
                                                 <p>
                                                     <?= $obj->getDescription(); ?>
                                                 </p>
@@ -359,14 +366,15 @@ if (!empty($post_array)) {
                                     <tr id="courseList_registerRow">
                                         <td colspan="4">
                                             <!--REGISTRATION-->
-                                            <div id="registerRowContainer" class="w3-hide">
+                                            <div id="js-repeat-course-<?php echo $obj->getRepeatingID(); ?>"
+                                                 class="w3-hide">
                                                 <div class="grid-x newCourseRegister" id="registrationSection">
                                                     <div class="cell small-1 medium-1 large-1"></div>
                                                     <!--REGISTRATION FORM-->
                                                     <form class="newCourseForm small-10 medium-10 large-10 cell"
                                                           method="post" action="?action=registerForRepeatingCourse">
                                                         <input type="hidden" name="repeatingID"
-                                                               value="<?php echo $current_course->getRepeatingID(); ?>">
+                                                               value="<?php echo $obj->getRepeatingID(); ?>">
                                                         <div class="naamVeld">
                                                             <h6 class="newCourse_title">Naam</h6>
                                                             <input class="naamInput" name="studentName">
@@ -385,7 +393,7 @@ if (!empty($post_array)) {
                                                         </div>
                                                         <div class="courseType">
                                                             <input type="hidden" name="courseType"
-                                                                   value="<?= $current_course->getRepeatingID() ?>">
+                                                                   value="<?= $obj->getRepeatingID() ?>">
                                                         </div>
                                                         <!--REGISTRATIONS & REGISTRATION SUBMIT-->
                                                         <div class="grid-x">
