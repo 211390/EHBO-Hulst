@@ -10,6 +10,7 @@
 // Add model
 include COURSE_PLUGIN_MODEL_DIR . "/newCourses.php";
 
+$classTd = 0;
 // Add stylesheet.
 wp_enqueue_style('style', '/wp-content/plugins/cursusPlugin/admin/views/stylesheet_admin.css');
 
@@ -18,7 +19,7 @@ $newCourses = new newCourses();
 
 // Set base url to current file and add page specific vars
 $base_url = get_admin_url() . 'admin.php';
-$params = array('page' => basename(__FILE__, ".php"));
+$params   = ['page' => basename(__FILE__, ".php")];
 
 // Add params to base url
 $base_url = add_query_arg($params, $base_url);
@@ -51,17 +52,25 @@ $all_courses = $newCourses->getNewCourseList();
 
 // Get the View
 $view = $_GET['view'];
-
+$actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+var_dump($_GET['registratiegoedkeuren']);
+if ($_GET['registratiegoedkeuren'] == "goedKeuring"){
+    $newCourses->setRegistrationToYes($_GET['goedkeuringsId']);
+}
+if ($_GET['registratiegoedkeuren'] == "foutKeuring"){
+    $newCourses->setRegistrationToDenied($_GET['foutkeuringsId']);
+}
 // Updates perameters when view is updated
 if ($view == 'update') {
     // Create update link
-    $params = array('action' => 'update');
+    $params = ['action' => 'update'];
     // add params to base url update link
     $upd_link = add_query_arg($params, $base_url);
 
     // Gets 'newID' and puts it into the 'current_course' variable
     $current_course = $newCourses->getNewCourseById($_GET['newID']);
     ?>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <!--HEADER TITLE-->
     <h1 id="headerTitle">Beheren Nieuwe Cursus</h1>
@@ -101,36 +110,66 @@ if ($view == 'update') {
         </table>
     </form>
 
+    <?php
+    $id      = $_GET['newID'];
+    $results = $newCourses->getRegistrations($id);
+    ?>
     <!--REGISTRATIONS TABLE-->
     <table id="courseList" cellspacing="0" cellpadding="0">
         <thead>
-        <!--HEADER TITLE-->
-        <td><h1 id="headerTitle">Registraties</h1></td>
+            <!--HEADER TITLE-->
+            <td><h1 id="headerTitle">Registraties</h1></td>
         </thead>
         <!--REGISTRATION ROW-->
-        <tr id='courseListRow'>
-            <!--COURSE LIST ITEM TITLE-->
-            <td id='courseListTitle'>Registratie voorbeeld titel</td>
-            <!--COURSE LIST BUTTONS-->
-            <td id='courseButtons'>
-                <button class="courseInfo">Meer Informatie</button>
-                <!--COURSE LIST APPROVE BUTTON-->
-                <form method='post' action=''
-                <input type='hidden' name='update' value=''>
-                <input class='courseListApprove' onclick='return confirm("Weet je zeker dat je dit wilt Goedkeuren?");'
-                       type='submit' value='&#10004;'>
-                </form>
-                <!--COURSE LIST DISAPPROVE BUTTON-->
-                <form method='post' action=''>
-                    <input type='hidden' name='delete' value=''>
-                    <input class='courseListDisapprove'
-                           onclick='return confirm("Weet je zeker dat je dit wilt Afkeuren & Verwijderen?");'
-                           type='submit' value='&#10006;'>
-                </form>
-            </td>
-        </tr>
-    </table>
+        <?php
+        foreach ($results as $result) {
+            $classTd = $classTd + 1;
+            ?>
+            <tr id='courseListRow'>
+                <!--COURSE LIST ITEM TITLE-->
+                <td id='courseListTitle'><?= $result->name; ?></td>
 
+                <!--COURSE LIST BUTTONS-->
+                <td id='courseButtons'>
+                    <button id="<?= $classTd ?>" class="courseInfo">Meer Informatie</button>
+
+                    <!--COURSE LIST APPROVE BUTTON-->
+                    <form method='post' action='<?= $actual_link . '&registratiegoedkeuren=goedKeuring&goedkeuringsId=' . $result->registrationID ?>'>
+                    <input type='hidden' name='update' value=''>
+                    <input <?php if ($result->approval == '1'){ echo 'style="display:none"';} ?> class='courseListApprove' type='submit'  onclick='return confirm("Weet je zeker dat je dit wilt Goedkeuren?");'
+                                                                                                 value='&#10004;'>
+                    </form>
+                    <!--COURSE LIST DISAPPROVE BUTTON-->
+                    <form method='post' action='<?= $actual_link . '&registratiegoedkeuren=foutKeuring&foutkeuringsId=' . $result->registrationID ?>'>
+                        <input type='hidden' name='delete' value=''>
+                        <input <?php if ($result->approval == '0'){ echo 'style="display:none"';} ?> class='courseListDisapprove' onclick='return confirm("Weet je zeker dat je dit wilt Afkeuren & Verwijderen?");'
+                               type='submit' value='&#10006;'>
+                    </form>
+                </td>
+            </tr>
+            <tr class="<?= $classTd ?>" id='courseListRow' style="display: none;">
+                <td>
+                        <?= $result->mail ?>
+                </td>
+                <td>
+                        <?= $result->mail ?>
+                </td>
+                <td>
+                        <?= $result->comment; ?>
+                </td>
+            </tr>
+            <?php
+        }
+        ?>
+    </table>
+    <script>
+        $(document).ready(function() {
+            $('.courseInfo').click(function() {
+                var number = $(this).attr('id');
+                $('.' + number).toggle();
+            });
+        });
+    </script>
     <!--COURSE LIST-->
     <?php
 } else {
@@ -144,11 +183,11 @@ if ($view == 'update') {
     // Determines Delete or Update action per course
     foreach ($all_courses as $obj) {
         // Create update link
-        $params = array('view' => 'update', 'newID' => $obj->getNewID());
+        $params = ['view' => 'update', 'newID' => $obj->getNewID()];
         // add params to base url update link
         $upd_link = add_query_arg($params, $base_url);
         // Create delete link
-        $params = array('action' => 'delete', 'newID' => $obj->getNewID());
+        $params = ['action' => 'delete', 'newID' => $obj->getNewID()];
         // Add params to base url delete link
         $del_link = add_query_arg($params, $base_url);
 

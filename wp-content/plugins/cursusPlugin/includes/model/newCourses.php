@@ -274,4 +274,37 @@ class newCourses
         return $table = $wpdb->prefix . "cp_newCourse";
     }
 
+    public function getRegistrations($id)
+    {
+        $intId = (int) $id;
+        global $wpdb;
+
+        $results = $wpdb->get_results("SELECT * FROM wp_cp_registration WHERE courseType = {$intId}");
+        return $results;
+    }
+
+    public function setRegistrationToYes($id)
+    {
+        global $wpdb;
+        $mail = $wpdb->get_row("SELECT mail FROM wp_cp_registration WHERE registrationID={$id}");
+        $courseid = $wpdb->get_row("SELECT courseType FROM wp_cp_registration WHERE registrationID = {$id}");
+        $courseid = (int) $courseid->courseType;
+
+        $course = $wpdb->get_row("SELECT wp_cp_newcourse.title FROM wp_cp_newcourse INNER JOIN wp_cp_registration ON wp_cp_registration.courseType = wp_cp_newcourse.newID WHERE wp_cp_registration.courseType={$courseid}");
+        $wpdb->query("UPDATE wp_cp_registration SET approval = 1 WHERE registrationID ={$id}");
+        mail($mail->mail, 'Goed keuring registratie', 'U bent goedgekeurd voor de ' . $course->title);
+
+    }
+
+    public function setRegistrationToDenied($id)
+    {
+        global $wpdb;
+        $mail = $wpdb->get_row("SELECT mail FROM wp_cp_registration WHERE registrationID={$id}");
+        $courseid = $wpdb->get_row("SELECT courseType FROM wp_cp_registration WHERE registrationID = {$id}");
+        $courseid = (int) $courseid->courseType;
+
+        $course = $wpdb->get_row("SELECT wp_cp_newcourse.title FROM wp_cp_newcourse INNER JOIN wp_cp_registration ON wp_cp_registration.courseType = wp_cp_newcourse.newID WHERE wp_cp_registration.courseType={$courseid}");
+        $wpdb->query("DELETE FROM wp_cp_registration WHERE registrationID ={$id}");
+        mail($mail->mail, 'Fout keuring registratie', 'U bent afgekeurd voor de ' . $course->title);
+    }
 }
